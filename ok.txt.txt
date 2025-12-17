@@ -1,1 +1,55 @@
-ok
+Thẻ tiêu đề:
+<h1></h1> - <h2></h2> - ... - <h6></h6>
+
+Định dạng văn bản:
+<b></b>: chữ đậm
+<i></i>: chữ nghiêng
+<u></u>: gạch chân
+text-align: center; (Căn giữa văn bản)
+font-family: Times New Roman; (Font chữ)
+font-size: 14px; (Cỡ chữ)
+text-decoration: none/ underline; (Trang trí văn bản)
+
+Đoạn văn bản:
+<pre></pre> (Khối văn bản tự động xuống dòng)
+<p></p> (Văn bản không tự động xuống dòng)
+
+Gắn link/ chèn hình ảnh:
+<img src="ảnh" alt "tên ảnh" style="..."> (Chèn ảnh)
+<a href="đường link">Tên đường link</a> (Chèn link
+<a href="đường link">
+	<img src="ảnh" alt="" style="width: 100px; height: 100px;">
+</a> (Chèn link trong ảnh)
+
+Tạo bảng:
+<table border="1">
+	<tr>
+		<th></th> (Tiêu đề)
+		<td></td> (Nội dung)
+	</tr> (Dòng)
+</table>
+rowspan="số lượng ô muốn gộp" (Gộp ô)
+border="1" (Kích cỡ viền bảng)
+
+Danh sách:
+<ol>
+	<li></li>
+</ol> (Danh sách có thứ tự)
+<ul>
+	<li></li>
+</ul> (Danh sách không có thứ tự)
+
+Drop-down list:
+<select name="tên danh sách">
+	<option value="">Lựa chọn 1</option>
+	<option value="">Lựa chọn 2</option>
+</select> 
+
+Checkbox:
+<input type="checkbox"> Lựa chọn 1
+<input type="checkbox"> Lựa chọn 2
+
+Radio box:
+<input type="radio" name="tên danh sách"> Lựa chọn 1
+<input type="radio" name="tên danh sách"> Lựa chọn 2
+
